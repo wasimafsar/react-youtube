@@ -1,0 +1,27 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: center;
+  background-color: #282c34;
+}
+
+li {
+  list-style-type: square;
+  margin-left: 2rem;
+  color: white;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  margin-right: 30rem;
+}
+
+a:hover {
+  color: yellow;
+}
+
+a {
+  color: white;
+}

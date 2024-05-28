@@ -1,0 +1,41 @@
+.layout {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  height: 90vh;
+  width: 100vw;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.container {
+  width: 20rem;
+  border: 2px solid rgb(255, 157, 0);
+  height: 10rem;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  background-color: blanchedalmond;
+}
+
+.container a {
+  color: black;
+}
+
+input {
+  width: 50rem;
+  margin-left: 20rem;
+  height: 2rem;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+
+button {
+  background-color: azure;
+  margin-left: 2rem;
+  cursor: pointer;
+}
